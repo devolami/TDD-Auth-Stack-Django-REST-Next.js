@@ -127,6 +127,8 @@ This project is a complete authentication application built with Next.js (React)
     cd ../frontend
     npm run test # or yarn test
     ```
+    ### Frontend Test Note 
+    If the frontend test fails, ensure the value of "jsx" in the tsconfig.json is set to "react" and not "preserve".
 
 ### TDD Approach
 
